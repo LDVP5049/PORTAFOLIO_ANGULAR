@@ -1,0 +1,26 @@
+
+  
+
+/* Estilos para la tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f8d7da; /* Cambia el color de fondo del encabezado */
+    color: #721c24; /* Cambia el color del texto del encabezado */
+}
+
+/* Centrado del título h1 */
+.text-center {
+    text-align: center;
+}

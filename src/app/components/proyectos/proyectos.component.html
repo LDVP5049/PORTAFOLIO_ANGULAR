@@ -1,0 +1,23 @@
+
+    <main class="main">
+        <div class="todo">
+            <div class="content">
+                <div class="left-side">
+                    <h1>PROYECTOS</h1>
+                    <div class="proyectos-container">
+                        <div class="proyecto" 
+                        *ngFor="let proyecto of proyectos"
+                        [class.proyecto-seleccionado]="proyecto === proyectoSeleccionado"
+                        (click)="seleccionarProyecto(proyecto)">
+                            <div class="proyecto-info">
+                                <h3>{{proyecto.nombreP}}</h3>
+                                <p>{{proyecto.descripcion}}</p>
+                                <p>Tecnologias: {{proyecto.tecnologias}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
